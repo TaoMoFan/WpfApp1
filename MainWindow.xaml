@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" x:Class="WpfApp1.MainWindow"
+        mc:Ignorable="d"
+        Title="Stars" Height="450" Width="800">
+
+    <Grid x:Name="窗口主体" Background="White">
+        <Button Margin="670,40,46,360" Content="开始" Click="Button_Click" Background="#FF2AEA00" BorderBrush="#FF2AEA00"/>
+        <materialDesign:TimePicker HorizontalAlignment="Left" Margin="761,106,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="59,41,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="556" Height="32"/>
+    </Grid>
+
+</Window>
